@@ -1,0 +1,14 @@
+use tickstep;
+
+fn main() {
+    let lo = -3.0;
+    let hi = 11.0;
+    let intervals = 4.0;
+    let result = tickstep_cover(lo, hi, intervals);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
