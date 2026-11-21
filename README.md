@@ -11,7 +11,7 @@ A constant series collapses a chart axis; raw decimal steps make labels hard to 
 Install [Blyx 0.2.1](https://www.blyx-lang.space/download) with a Rust toolchain and host linker for native builds.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-tickstep.git
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-tickstep.git
 cd blyx-tickstep
 blyxc native-run example.blyx
 blyxc native-run tests.blyx
@@ -24,7 +24,7 @@ blyxc native-run tests.blyx
 Run this in the directory containing your application's entry file.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-tickstep.git vendor/tickstep
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-tickstep.git vendor/tickstep
 ```
 
 ```blyx
